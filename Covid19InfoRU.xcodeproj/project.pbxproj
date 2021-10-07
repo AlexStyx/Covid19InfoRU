@@ -3,18 +3,35 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 55;
+	objectVersion = 54;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		23EB9C2B11ED1FA029DE791D /* Pods_Covid19InfoRU.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 856DF23C7CA20C64A0B79FFC /* Pods_Covid19InfoRU.framework */; };
 		5F1D573A26FFC90000B9F3AF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F1D573926FFC90000B9F3AF /* AppDelegate.swift */; };
 		5F1D573C26FFC90000B9F3AF /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F1D573B26FFC90000B9F3AF /* SceneDelegate.swift */; };
 		5F1D573E26FFC90000B9F3AF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F1D573D26FFC90000B9F3AF /* ViewController.swift */; };
 		5F1D574326FFC90300B9F3AF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5F1D574226FFC90300B9F3AF /* Assets.xcassets */; };
 		5F1D574626FFC90300B9F3AF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5F1D574426FFC90300B9F3AF /* LaunchScreen.storyboard */; };
+		5F2BCCE72700C65D00C2689E /* ChartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F2BCCE62700C65D00C2689E /* ChartView.swift */; };
+		5F2BCCE92700CA4D00C2689E /* InfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F2BCCE82700CA4D00C2689E /* InfoView.swift */; };
+		5F2BCCEB2700CE2000C2689E /* Statistics.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F2BCCEA2700CE2000C2689E /* Statistics.swift */; };
+		5F2BCCEE2700CF0B00C2689E /* InfoLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F2BCCED2700CF0B00C2689E /* InfoLabel.swift */; };
+		5F2BCCF12700CF7300C2689E /* ConfirmedLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F2BCCF02700CF7300C2689E /* ConfirmedLabel.swift */; };
+		5F2BCCF32700CFDA00C2689E /* DeathsLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F2BCCF22700CFDA00C2689E /* DeathsLabel.swift */; };
+		5F2BCCF52700D02100C2689E /* RecoveredLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F2BCCF42700D02100C2689E /* RecoveredLabel.swift */; };
+		5F2DA69A2703721B000505F6 /* ChartViewViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F2DA6992703721B000505F6 /* ChartViewViewModel.swift */; };
+		5F4D645D27030B7E00052A91 /* NetworkService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F4D645C27030B7E00052A91 /* NetworkService.swift */; };
+		5F4D645F270310B400052A91 /* DataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F4D645E270310B400052A91 /* DataModel.swift */; };
+		5F5A5077270DC9B100C9EB17 /* BubbleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F5A5076270DC9B100C9EB17 /* BubbleView.swift */; };
+		5F8F9C1227034F7600A62475 /* TestData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F8F9C1127034F7600A62475 /* TestData.swift */; };
+		5F975155270398EB00F92DB3 /* Date+extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F975154270398EB00F92DB3 /* Date+extensions.swift */; };
+		5FABD090270DA6390062AFCA /* Storyboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5FABD08F270DA6390062AFCA /* Storyboard.storyboard */; };
+		5FABD095270DABA00062AFCA /* AboutLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FABD094270DABA00062AFCA /* AboutLabel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		190581636B5747AACFA929FF /* Pods-Covid19InfoRU.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Covid19InfoRU.release.xcconfig"; path = "Target Support Files/Pods-Covid19InfoRU/Pods-Covid19InfoRU.release.xcconfig"; sourceTree = "<group>"; };
 		5F1D573626FFC90000B9F3AF /* Covid19InfoRU.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Covid19InfoRU.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5F1D573926FFC90000B9F3AF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5F1D573B26FFC90000B9F3AF /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -22,6 +39,23 @@
 		5F1D574226FFC90300B9F3AF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5F1D574526FFC90300B9F3AF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5F1D574726FFC90300B9F3AF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5F2BCCE62700C65D00C2689E /* ChartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChartView.swift; sourceTree = "<group>"; };
+		5F2BCCE82700CA4D00C2689E /* InfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoView.swift; sourceTree = "<group>"; };
+		5F2BCCEA2700CE2000C2689E /* Statistics.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Statistics.swift; sourceTree = "<group>"; };
+		5F2BCCED2700CF0B00C2689E /* InfoLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoLabel.swift; sourceTree = "<group>"; };
+		5F2BCCF02700CF7300C2689E /* ConfirmedLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConfirmedLabel.swift; sourceTree = "<group>"; };
+		5F2BCCF22700CFDA00C2689E /* DeathsLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeathsLabel.swift; sourceTree = "<group>"; };
+		5F2BCCF42700D02100C2689E /* RecoveredLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecoveredLabel.swift; sourceTree = "<group>"; };
+		5F2DA6992703721B000505F6 /* ChartViewViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChartViewViewModel.swift; sourceTree = "<group>"; };
+		5F4D645C27030B7E00052A91 /* NetworkService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkService.swift; sourceTree = "<group>"; };
+		5F4D645E270310B400052A91 /* DataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataModel.swift; sourceTree = "<group>"; };
+		5F5A5076270DC9B100C9EB17 /* BubbleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BubbleView.swift; sourceTree = "<group>"; };
+		5F8F9C1127034F7600A62475 /* TestData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestData.swift; sourceTree = "<group>"; };
+		5F975154270398EB00F92DB3 /* Date+extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Date+extensions.swift"; sourceTree = "<group>"; };
+		5FABD08F270DA6390062AFCA /* Storyboard.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Storyboard.storyboard; sourceTree = "<group>"; };
+		5FABD094270DABA00062AFCA /* AboutLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutLabel.swift; sourceTree = "<group>"; };
+		856DF23C7CA20C64A0B79FFC /* Pods_Covid19InfoRU.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Covid19InfoRU.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A5F8890E74201B0FFC4E48E6 /* Pods-Covid19InfoRU.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Covid19InfoRU.debug.xcconfig"; path = "Target Support Files/Pods-Covid19InfoRU/Pods-Covid19InfoRU.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +63,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				23EB9C2B11ED1FA029DE791D /* Pods_Covid19InfoRU.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -40,6 +75,8 @@
 			children = (
 				5F1D573826FFC90000B9F3AF /* Covid19InfoRU */,
 				5F1D573726FFC90000B9F3AF /* Products */,
+				D4E5EFA0B4BD3DBF3593BE88 /* Pods */,
+				968A55685D6341DC4F7A6D01 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,14 +91,126 @@
 		5F1D573826FFC90000B9F3AF /* Covid19InfoRU */ = {
 			isa = PBXGroup;
 			children = (
-				5F1D573926FFC90000B9F3AF /* AppDelegate.swift */,
-				5F1D573B26FFC90000B9F3AF /* SceneDelegate.swift */,
-				5F1D573D26FFC90000B9F3AF /* ViewController.swift */,
-				5F1D574226FFC90300B9F3AF /* Assets.xcassets */,
-				5F1D574426FFC90300B9F3AF /* LaunchScreen.storyboard */,
 				5F1D574726FFC90300B9F3AF /* Info.plist */,
+				5F4D645B27030B6500052A91 /* Services  */,
+				5F2BCCE42700C62F00C2689E /* Controllers */,
+				5F2DA698270371F8000505F6 /* ViewModels */,
+				5F2BCCE32700C62800C2689E /* Views */,
+				5F2BCCE22700C62100C2689E /* Models */,
+				5F2BCCE52700C63F00C2689E /* Supporting Files */,
+				5F975153270398CA00F92DB3 /* Extensions */,
+				5FABD08F270DA6390062AFCA /* Storyboard.storyboard */,
 			);
 			path = Covid19InfoRU;
+			sourceTree = "<group>";
+		};
+		5F2BCCE22700C62100C2689E /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				5F2BCCEA2700CE2000C2689E /* Statistics.swift */,
+				5F4D645E270310B400052A91 /* DataModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		5F2BCCE32700C62800C2689E /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				5F1D574426FFC90300B9F3AF /* LaunchScreen.storyboard */,
+				5F5A5078270DC9E900C9EB17 /* ChartView */,
+				5F2BCCEC2700CEF300C2689E /* InfoView */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		5F2BCCE42700C62F00C2689E /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				5F1D573D26FFC90000B9F3AF /* ViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		5F2BCCE52700C63F00C2689E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5F1D573926FFC90000B9F3AF /* AppDelegate.swift */,
+				5F1D573B26FFC90000B9F3AF /* SceneDelegate.swift */,
+				5F1D574226FFC90300B9F3AF /* Assets.xcassets */,
+				5F8F9C1127034F7600A62475 /* TestData.swift */,
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		5F2BCCEC2700CEF300C2689E /* InfoView */ = {
+			isa = PBXGroup;
+			children = (
+				5F2BCCE82700CA4D00C2689E /* InfoView.swift */,
+				5F2BCCEF2700CF6200C2689E /* Labels */,
+			);
+			path = InfoView;
+			sourceTree = "<group>";
+		};
+		5F2BCCEF2700CF6200C2689E /* Labels */ = {
+			isa = PBXGroup;
+			children = (
+				5F2BCCED2700CF0B00C2689E /* InfoLabel.swift */,
+				5FABD094270DABA00062AFCA /* AboutLabel.swift */,
+				5F2BCCF02700CF7300C2689E /* ConfirmedLabel.swift */,
+				5F2BCCF22700CFDA00C2689E /* DeathsLabel.swift */,
+				5F2BCCF42700D02100C2689E /* RecoveredLabel.swift */,
+			);
+			path = Labels;
+			sourceTree = "<group>";
+		};
+		5F2DA698270371F8000505F6 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				5F2DA6992703721B000505F6 /* ChartViewViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		5F4D645B27030B6500052A91 /* Services  */ = {
+			isa = PBXGroup;
+			children = (
+				5F4D645C27030B7E00052A91 /* NetworkService.swift */,
+			);
+			path = "Services ";
+			sourceTree = "<group>";
+		};
+		5F5A5078270DC9E900C9EB17 /* ChartView */ = {
+			isa = PBXGroup;
+			children = (
+				5F2BCCE62700C65D00C2689E /* ChartView.swift */,
+				5F5A5076270DC9B100C9EB17 /* BubbleView.swift */,
+			);
+			path = ChartView;
+			sourceTree = "<group>";
+		};
+		5F975153270398CA00F92DB3 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				5F975154270398EB00F92DB3 /* Date+extensions.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		968A55685D6341DC4F7A6D01 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				856DF23C7CA20C64A0B79FFC /* Pods_Covid19InfoRU.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D4E5EFA0B4BD3DBF3593BE88 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A5F8890E74201B0FFC4E48E6 /* Pods-Covid19InfoRU.debug.xcconfig */,
+				190581636B5747AACFA929FF /* Pods-Covid19InfoRU.release.xcconfig */,
+			);
+			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +220,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 5F1D574A26FFC90300B9F3AF /* Build configuration list for PBXNativeTarget "Covid19InfoRU" */;
 			buildPhases = (
+				1235C5EE8440390C0640D639 /* [CP] Check Pods Manifest.lock */,
 				5F1D573226FFC90000B9F3AF /* Sources */,
 				5F1D573326FFC90000B9F3AF /* Frameworks */,
 				5F1D573426FFC90000B9F3AF /* Resources */,
+				1A917F81E4C4E66D4EF4E3D4 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -100,7 +251,7 @@
 				};
 			};
 			buildConfigurationList = 5F1D573126FFC90000B9F3AF /* Build configuration list for PBXProject "Covid19InfoRU" */;
-			compatibilityVersion = "Xcode 13.0";
+			compatibilityVersion = "Xcode 12.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -124,19 +275,76 @@
 			files = (
 				5F1D574626FFC90300B9F3AF /* LaunchScreen.storyboard in Resources */,
 				5F1D574326FFC90300B9F3AF /* Assets.xcassets in Resources */,
+				5FABD090270DA6390062AFCA /* Storyboard.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1235C5EE8440390C0640D639 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Covid19InfoRU-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		1A917F81E4C4E66D4EF4E3D4 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Covid19InfoRU/Pods-Covid19InfoRU-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Covid19InfoRU/Pods-Covid19InfoRU-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Covid19InfoRU/Pods-Covid19InfoRU-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		5F1D573226FFC90000B9F3AF /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5F975155270398EB00F92DB3 /* Date+extensions.swift in Sources */,
+				5F4D645D27030B7E00052A91 /* NetworkService.swift in Sources */,
 				5F1D573E26FFC90000B9F3AF /* ViewController.swift in Sources */,
+				5F2BCCF32700CFDA00C2689E /* DeathsLabel.swift in Sources */,
 				5F1D573A26FFC90000B9F3AF /* AppDelegate.swift in Sources */,
+				5F2DA69A2703721B000505F6 /* ChartViewViewModel.swift in Sources */,
+				5F8F9C1227034F7600A62475 /* TestData.swift in Sources */,
 				5F1D573C26FFC90000B9F3AF /* SceneDelegate.swift in Sources */,
+				5F4D645F270310B400052A91 /* DataModel.swift in Sources */,
+				5F2BCCEE2700CF0B00C2689E /* InfoLabel.swift in Sources */,
+				5F2BCCE92700CA4D00C2689E /* InfoView.swift in Sources */,
+				5F5A5077270DC9B100C9EB17 /* BubbleView.swift in Sources */,
+				5FABD095270DABA00062AFCA /* AboutLabel.swift in Sources */,
+				5F2BCCF52700D02100C2689E /* RecoveredLabel.swift in Sources */,
+				5F2BCCE72700C65D00C2689E /* ChartView.swift in Sources */,
+				5F2BCCF12700CF7300C2689E /* ConfirmedLabel.swift in Sources */,
+				5F2BCCEB2700CE2000C2689E /* Statistics.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -272,6 +480,7 @@
 		};
 		5F1D574B26FFC90300B9F3AF /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A5F8890E74201B0FFC4E48E6 /* Pods-Covid19InfoRU.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -284,6 +493,7 @@
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -299,6 +509,7 @@
 		};
 		5F1D574C26FFC90300B9F3AF /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 190581636B5747AACFA929FF /* Pods-Covid19InfoRU.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -311,6 +522,7 @@
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
